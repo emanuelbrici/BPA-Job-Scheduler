@@ -1,0 +1,10 @@
+{
+  "username": "",
+  "password": "",
+  "nodes": [
+    {
+      "port": 22,
+      "host": ""
+    }
+  ]
+}

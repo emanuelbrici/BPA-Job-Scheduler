@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.forgerock.http:chf-http-core:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/forgerock/http/chf-http-core/0.0.1-SNAPSHOt/chf-http-core-0.0.1-20151021.100211-136.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/forgerock/http/chf-http-core/0.0.1-SNAPSHOT/chf-http-core-0.0.1-20151021.100211-136-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/forgerock/http/chf-http-core/0.0.1-SNAPSHOT/chf-http-core-0.0.1-20151021.100211-136-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

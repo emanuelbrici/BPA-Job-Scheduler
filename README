@@ -1,0 +1,96 @@
+Project: 
+    JobScheduler
+
+Developers:
+    Lead:Emanuel Brici
+    Brayden Roth-White
+    Lucas Schwanz
+
+
+Packages in .jar: 
+    gui
+    JobScheduler
+
+
+Classes in gui: 
+    ComputersToBeUsed.java
+    Configuration.java
+    MainWindow.java
+    UserName.java
+
+
+Classes in JobScheduler: 
+    ConfigurationUtil.java
+    Executor.java
+    Job.java
+    JsonConfigSetUp.java
+    Node.java
+    SetUp.java
+
+
+Program Description:
+    This software system is a multi computer processing system that utilize the
+cores of multiple computers on a network to run multiple tasks simultaneously.
+The system is designed to maximize the efficiency of the user and run multiple
+tasks quickly that otherwise would be run one at a time. It  utilizes javas built
+in multi threading to have each computer used on a separate thread. The software
+can be run from one computer that has access to the ENCS network.
+
+
+IDE used:
+    The IDE used to develop this project was IntelliJ IDEA 15 CE. If you would like
+to modify any code it is recommend that you use this IDE as well.
+
+
+Build environment:
+    java version "1.8.0_51"
+
+
+Environment Setup Part 1:
+    First make sure your machine has maven if it does continue to the next
+part.  If not, install brew through the terminal with the following command
+" $ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" "
+Once brew has been installed run the following command to get maven.
+" $brew install maven " Now move JobScheduler.jar into the desired directory.
+
+
+Environment Setup Part 2:
+    If you would like to view the source code, cd into JobScheduler and then
+" $mvn clean install ". This will make sure that you have all the correct dependencies to
+run the program. The environment should be ready to run at this point.
+
+Running the Application:
+    First make sure that you are on the ENCS network. If you are not on the ENCS network
+the program will not work.
+
+    If you would only like to run the program without looking at any of the source
+code you can run the executable JobScheduler.jar. If you want to run the program from
+the terminal the following command will work. " $java -jar JobScheduler.jar ". After
+this command is executed a java application will begin to start up. If you run the
+program through the terminal there will be out put for you to see. You can also just
+double click the JobScheduler.jar as well so start the java application. If you choose
+to do this you will not be able to see what would normally be printing out to the
+terminal console. If you open the source in an IntelliJ IDE run the program from
+'gui/Configure.java'.
+
+
+Executable files to run setup:
+    The directory which is holding all of your executable files that you want to execute
+need to be placed in your home directory on the ENCS network. The directory also needs
+to be relabeled as " Jobs " for the program to be able to find it.
+
+
+Output of Application:
+    Which ever way you decide to run the program application, you will be prompted at first
+on whether or not you would like to create a configuration file. If it is your first time
+running the program you will need to create a configuration file. The configuration file
+will store your ENCS username, password, and all of the hosts that you chose to use. This
+information will be used to SSH into the network.
+
+    The configuration file will be created in the project directory. A Log.txt file will
+also be created in the same directory. The Log.txt file is where you can go to find the
+output of the scripts that were executed on the ENCS machines.
+
+If you have any questions you can email one of the following developers:
+    emanuel.brici@wsu.edu
+    brayden.roth-white@wsu.edu

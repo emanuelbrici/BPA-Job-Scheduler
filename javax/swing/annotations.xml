@@ -1,0 +1,6 @@
+<root>
+  <item name='javax.swing.WindowConstants EXIT_ON_CLOSE'>
+    <annotation name='org.jetbrains.annotations.NotNull'/>
+    <annotation name='java.lang.annotation.Deprecated'/>
+  </item>
+</root>
